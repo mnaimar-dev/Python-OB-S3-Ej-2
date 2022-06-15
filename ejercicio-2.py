@@ -2,6 +2,6 @@
 
 peso = int(input('Ingresa tu peso en kg: '))
 estatura = float(input('Ingresa tu estatura en metros: '))
-imc = round(float(peso)/float(estatura)**2,2)
+imc = round(float(peso)/float(estatura)**2, 2)
 
 print('Tu IMC es: ', imc)
